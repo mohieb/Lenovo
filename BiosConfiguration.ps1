@@ -1,20 +1,3 @@
-<#
-======================================================================================================
- 
- Created on:    20.04.2021
- Created by:    Mattias Melkersen
- Version:       0.1  
- Mail:          mm@mindcore.dk
- twitter:       @mmelkersen
- Function:      Configure Lenovo BIOS with dynamic config on Github
-
- Borrowed script parts from Damien https://github.com/damienvanrobaeys/Lenovo_Intune_BIOS_Settings/blob/master/BIOS_Settings_For_Lenovo.ps1
- This script is provided As Is
- Compatible with Windows 10 and later
-======================================================================================================
-
-#>
-
 [string]$GithubConf = "https://raw.githubusercontent.com/mmelkersen/EndpointManager/main/BIOS/BiosConfiguration.csv"
 [string]$Logfile = "C:\ProgramData\Microsoft\IntuneManagementExtension\Logs\BIOS_Settings.log" 
 [string]$MyPassword = 
