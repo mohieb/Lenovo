@@ -1,4 +1,4 @@
-[string]$GithubConf = "https://raw.githubusercontent.com/mmelkersen/EndpointManager/main/BIOS/BiosConfiguration.csv"
+[string]$GithubConf = "https://github.com/mohieb/Lenovo/blob/main/BIOS/BiosConfiguration.csv"
 [string]$Logfile = "C:\ProgramData\Microsoft\IntuneManagementExtension\Logs\BIOS_Settings.log" 
 [string]$MyPassword = 
 [string]$Language = "us"
